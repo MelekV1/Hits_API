@@ -15,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
 namespace HitsAPI.Api
 {
@@ -35,6 +36,12 @@ namespace HitsAPI.Api
             services.AddDbContext<HitsAPIDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), x => x.MigrationsAssembly("HitsAPI.Data")));
             services.AddTransient<IMusicService, MusicService>();
             services.AddTransient<IArtistService, ArtistService>();
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc(
+                        "v1",
+                        new OpenApiInfo { Title = "Hits API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +51,14 @@ namespace HitsAPI.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.RoutePrefix = "";
+                c.SwaggerEndpoint(
+                     "/swagger/v1/swagger.json",
+                     "Hits API V1");
+            });
 
             app.UseHttpsRedirection();
 

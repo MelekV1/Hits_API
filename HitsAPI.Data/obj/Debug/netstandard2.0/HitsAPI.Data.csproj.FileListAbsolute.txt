@@ -2,7 +2,6 @@ A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\bin\Debug\netstandard2.0
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.csprojAssemblyReference.cache
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.AssemblyInfoInputs.cache
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.AssemblyInfo.cs
-A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.csproj.CoreCompileInputs.cache
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\bin\Debug\netstandard2.0\HitsAPI.Data.deps.json
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\bin\Debug\netstandard2.0\HitsAPI.Data.dll
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\bin\Debug\netstandard2.0\HitsAPI.Data.pdb
@@ -10,3 +9,4 @@ A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\bin\Debug\netstandard2.0
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.csproj.CopyComplete
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.dll
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.pdb
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Data\obj\Debug\netstandard2.0\HitsAPI.Data.csproj.CoreCompileInputs.cache

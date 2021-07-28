@@ -62,6 +62,11 @@ A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\s
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.Api.dll
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.Api.pdb
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.Api.genruntimeconfig.cache
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.Api.csproj.CoreCompileInputs.cache
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.Api.MvcApplicationPartsAssemblyInfo.cache
-A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.api.MvcApplicationPartsAssemblyInfo.cs
