@@ -1,0 +1,12 @@
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\bin\Debug\netstandard2.0\HitsAPI.Services.deps.json
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\bin\Debug\netstandard2.0\HitsAPI.Services.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\bin\Debug\netstandard2.0\HitsAPI.Services.pdb
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\bin\Debug\netstandard2.0\HitsAPI.Core.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\bin\Debug\netstandard2.0\HitsAPI.Core.pdb
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\obj\Debug\netstandard2.0\HitsAPI.Services.csprojAssemblyReference.cache
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\obj\Debug\netstandard2.0\HitsAPI.Services.AssemblyInfoInputs.cache
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\obj\Debug\netstandard2.0\HitsAPI.Services.AssemblyInfo.cs
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\obj\Debug\netstandard2.0\HitsAPI.Services.csproj.CoreCompileInputs.cache
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\obj\Debug\netstandard2.0\HitsAPI.Services.csproj.CopyComplete
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\obj\Debug\netstandard2.0\HitsAPI.Services.dll
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Services\obj\Debug\netstandard2.0\HitsAPI.Services.pdb

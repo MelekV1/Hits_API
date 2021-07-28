@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fDZg5F/qDKPp5hOkNwRR/qCMD20ou0LJjCx0YJ9UmX7ose+sXedh0pNWCmTGFKZy5rfHPIAipPtckqy8AOUhtg==",
+  "dgSpecHash": "nJhSkkkiHA3e5DI9zZJPEHN+0Ulmz518qfx8rDJ0/mkcRa8O8MnUOBd1X4YmOzA84Ve3j+k88AFp1uqKQPRJ5Q==",
   "success": true,
   "projectFilePath": "A:\\user\\Learning Assets\\.NET-CORE\\Hits_API\\HitsAPI.Services\\HitsAPI.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

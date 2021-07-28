@@ -1,0 +1,5 @@
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.api.csprojAssemblyReference.cache
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.api.AssemblyInfoInputs.cache
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.api.AssemblyInfo.cs
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.api.csproj.CoreCompileInputs.cache
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Api\obj\Debug\netcoreapp3.1\HitsAPI.api.MvcApplicationPartsAssemblyInfo.cache
