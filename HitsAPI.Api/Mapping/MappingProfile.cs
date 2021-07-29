@@ -18,7 +18,9 @@ namespace HitsAPI.api.Mapping
 
             //Resource to Domain
             CreateMap<MusicResource, Music>();
+            CreateMap<SaveMusicResource, Music>();
             CreateMap<ArtistResource, Artist>();
+            CreateMap<SaveArtistResource, Artist>();
         }
     }
 }

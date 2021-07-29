@@ -42,8 +42,6 @@ namespace HitsAPI.Api
                         "v1",
                         new OpenApiInfo { Title = "Hits API", Version = "v1" });
             });
-
-
             services.AddAutoMapper(typeof(Startup));
         }
 

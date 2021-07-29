@@ -8,6 +8,5 @@ namespace HitsAPI.api.Resource
     public class SaveArtistResource
     {
         public string Name { get; set; }
-
     }
 }

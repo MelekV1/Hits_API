@@ -6,3 +6,4 @@ A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Core\obj\Debug\netstandard2.0
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Core\obj\Debug\netstandard2.0\HitsAPI.Core.csproj.CoreCompileInputs.cache
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Core\obj\Debug\netstandard2.0\HitsAPI.Core.dll
 A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Core\obj\Debug\netstandard2.0\HitsAPI.Core.pdb
+A:\user\Learning Assets\.NET-CORE\Hits_API\HitsAPI.Core\obj\Debug\netstandard2.0\HitsAPI.Core.csprojAssemblyReference.cache

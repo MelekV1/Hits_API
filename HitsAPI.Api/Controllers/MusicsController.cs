@@ -9,6 +9,7 @@ using HitsAPI.Core.Models;
 using HitsAPI.Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace HitsAPI.api.Controllers
 {
@@ -18,11 +19,13 @@ namespace HitsAPI.api.Controllers
     {
         private readonly IMusicService _musicService;
         private readonly IMapper _mapper;
+        private readonly ILogger _logger;
 
-        public MusicsController(IMusicService musicService, IMapper mapper)
+        public MusicsController(IMusicService musicService, IMapper mapper, ILogger<MusicsController> logger)
         {
             this._mapper = mapper;
             this._musicService = musicService;
+            this._logger = logger;
         }
 
         [HttpGet("")]
@@ -32,6 +35,7 @@ namespace HitsAPI.api.Controllers
             var musicResources = _mapper.Map<IEnumerable<Music>, IEnumerable<MusicResource>>(musics);
             return Ok(musicResources);
         }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<MusicResource>> GetMusicById(int id)
         {
@@ -49,7 +53,7 @@ namespace HitsAPI.api.Controllers
 
             if (!ValidationResult.IsValid)
                 return BadRequest(ValidationResult.Errors);
-
+            _logger.LogInformation("we are here");
             var musicToCreate = _mapper.Map<SaveMusicResource, Music>(saveMusicResource);
             var newMusic = await _musicService.CreateMusic(musicToCreate);
             var music = await _musicService.GetMusicById(newMusic.Id);

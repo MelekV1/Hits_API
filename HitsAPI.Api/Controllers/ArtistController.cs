@@ -9,6 +9,7 @@ using HitsAPI.Core.Models;
 using HitsAPI.Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace HitsAPI.api.Controllers
 {
@@ -18,11 +19,13 @@ namespace HitsAPI.api.Controllers
     {
         private readonly IArtistService _artistService;
         private readonly IMapper _mapper;
+        private readonly ILogger _logger;
 
-        public ArtistController(IArtistService artistService, IMapper mapper)
+        public ArtistController(IArtistService artistService, IMapper mapper, ILogger<ArtistController> logger)
         {
             this._mapper = mapper;
             this._artistService = artistService;
+            this._logger = logger;
         }
 
         [HttpGet("")]
@@ -54,7 +57,8 @@ namespace HitsAPI.api.Controllers
                 return BadRequest(validationResult.Errors);
 
             var artistToCreate = _mapper.Map<SaveArtistResource, Artist>(saveArtistResource);
-            var newArtist = await _artistService.CreateArtist(artistToCreate);
+
+            var newArtist = await _artistService.CreateArtist(artistToCreate);  
             var artist = await _artistService.GetArtistById(newArtist.Id);
             var artistResource = _mapper.Map<Artist, ArtistResource>(artist);
             return Ok(artistResource);
